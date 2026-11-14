@@ -3,8 +3,8 @@ name: NewAPI 自动签到
 on:
   # 定时执行：每天 UTC 9:00 (北京时间 17:00)
   schedule:
-    - cron: '0 16 * * *'
-    - cron: '0 2 * * *'
+    - cron: '0 15 * * *'
+    - cron: '0 22 * * *'
   # 手动触发
   workflow_dispatch:
 
